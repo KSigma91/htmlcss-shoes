@@ -6,10 +6,10 @@
 }
 
 /* impostazioni generali */
-main {
+section {
     position: relative;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     margin: auto;
 }
 
@@ -30,7 +30,7 @@ h1 {
 }
 
 /* impostazioni generali barra pulsanti */
-main section .button-list {
+section .list .button-list {
     position: absolute;
     top: 30px;
     right: 20px;
@@ -38,7 +38,7 @@ main section .button-list {
     width: 150px;
 }
 
-main section .button-list button {
+section .list .button-list button {
     border-radius: 50%;
     border: 1px solid black;
     background: white;
@@ -48,7 +48,7 @@ main section .button-list button {
 }
 
 /* primo articolo */
-main section .shoes {
+section .list .shoes {
     background: red;
     width: 100%;
     height: 100vh;  
