@@ -9,12 +9,21 @@
 section {
     position: relative;
     width: 100%;
-    /* height: 100vh; */
+    height: 100vh;
     margin: auto;
+}
+
+.list {
+    width: 100%;
+    height: 100%;
 }
 
 img {
     max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -30,7 +39,7 @@ h1 {
 }
 
 /* impostazioni generali barra pulsanti */
-section .list .button-list {
+section .list.red .button-list {
     position: absolute;
     top: 30px;
     right: 20px;
@@ -38,7 +47,7 @@ section .list .button-list {
     width: 150px;
 }
 
-section .list .button-list button {
+section .list.red .button-list button {
     border-radius: 50%;
     border: 1px solid black;
     background: white;
@@ -48,15 +57,12 @@ section .list .button-list button {
 }
 
 /* primo articolo */
-section .list .shoes {
+section .list.red {
     background: red;
-    width: 100%;
-    height: 100vh;  
 }
 
-.shoes img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+/* secondo articolo */
+section .list.green {
+    background: green;      
 }
