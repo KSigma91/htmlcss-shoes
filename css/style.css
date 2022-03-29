@@ -66,3 +66,12 @@ section .list.red {
 section .list.green {
     background: green;      
 }
+
+/* terzo articolo */
+section .list.yellow {
+    background: yellow;
+}
+
+section .list.yellow .shoes h1 {
+    color: green;
+}
